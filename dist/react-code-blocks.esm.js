@@ -406,8 +406,8 @@ var SUPPORTED_LANGUAGE_ALIASES = /*#__PURE__*/Object.freeze([{
   value: 'java'
 }, {
   name: 'CSharp',
-  alias: ['csharp', 'c#'],
-  value: 'cs'
+  alias: ['csharp', 'c#', 'cs'],
+  value: 'csharp'
 }, {
   name: 'Python',
   alias: ['python', 'py'],

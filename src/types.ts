@@ -76,7 +76,7 @@ export type SupportedLanguages =
   | 'bash'
   | 'c' // → cpp
   | 'clojure'
-  | 'cs'
+  | 'csharp'
   | 'c++' // → cpp
   | 'cpp'
   | 'coffeescript'
