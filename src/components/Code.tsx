@@ -98,6 +98,7 @@ export default class Code extends PureComponent<CodeProps, {}> {
     const language = normalizeLanguage(this.props.language);
 
     const props = {
+      language,
       PreTag: this.props.preTag,
       style: this.props.codeStyle || inlineCodeStyle,
       showLineNumbers: this.props.showLineNumbers,
@@ -108,7 +109,6 @@ export default class Code extends PureComponent<CodeProps, {}> {
     return (
       <SyntaxHighlighter
         {...props}
-        language='csharp'
         // Wrap lines is needed to set styles on the line.
         // We use this to set opacity if highlight specific lines.
         wrapLines={this.props.highlight.length > 0}
