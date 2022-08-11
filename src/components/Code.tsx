@@ -106,7 +106,8 @@ export default class Code extends PureComponent<CodeProps, {}> {
     };
 
     return (
-      <SyntaxHighlighter
+      <div>Testing</div>
+      /*<SyntaxHighlighter
         {...props}
         language='csharp'
         // Wrap lines is needed to set styles on the line.
@@ -123,7 +124,7 @@ export default class Code extends PureComponent<CodeProps, {}> {
         })}
       >
         {this.props.text}
-      </SyntaxHighlighter>
+      </SyntaxHighlighter>*/
     );
   }
 }
